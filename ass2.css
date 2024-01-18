@@ -1,0 +1,719 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@400;900&family=Mulish:wght@400;800&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: auto;
+    /* padding-left: ; */
+    font-family: 'Mulish', sans-serif;
+}
+
+.name{
+    display: flex;
+    gap: 20px;
+    color: #131318;
+font-family: Mulish;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* border-radius: 15px; */
+ height: 100%;   
+}
+.site-name{
+    width: 201px;
+    height: 45px;
+    font-size: 1.8rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    width: 100%;
+}
+.Travel{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.orange{
+    color: #FF5400;
+}
+img{
+    width: 25%;
+    height: 56.008px;}
+    .navbar{
+    list-style: none;
+    gap: 30px;
+ }
+ ul > li > a{
+    text-decoration: none;
+    
+ }
+ .navbar{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+ }
+
+ /* 2nd section explore */
+  .explore{
+    /* margin-top: 20px ; */
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    margin-top: 30px;
+    width: 71%;
+    height: 100%;
+    border-radius: 15px;
+    /* padding:  50px 100px; */
+  }
+  .form{
+    padding: 25px;
+    width: 70%;
+    gap: 10px;
+    /* display: grid; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    margin-top: 10px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+/* background-position: center; */
+    
+  }
+  form > input, button{
+    width: 174px;
+    height: 36px;
+    border-radius: 8px;
+    /* text-align: center; */
+    border: solid 0.5px;
+    
+    
+  }
+  
+  .orange2{
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    width: 174px;
+height: 38px;
+  }
+
+  .description{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 90%;
+padding-top: 20px;
+margin-top: 5px;
+  }
+  h1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 6%;
+  }
+  #select{
+    width: 174px;
+    height: 38px;
+    border-radius: 8px;
+    /* text-align: center; */
+    color: rgba(19, 19, 24, 0.50);
+    padding-left: 15px;
+  }
+  input::placeholder{
+    align-items: center;
+    padding: 15px;
+  }
+
+  /* second section */
+  .popular{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5% 12.5%;
+    color: #131318;
+  }
+  .photo > img{
+    width: 100%;
+    height: 100%;
+    margin: 5px 15px;
+
+  }
+  .photo > video{
+    width: 610px;
+height: 424px;
+/* flex-shrink: 0; */
+    margin: 5px 15px;
+  }
+  .tour-description{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    
+    /* color: rgba(19, 19, 24, 0.70); */
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    /* margin: 35px 55px; */
+  }
+  .second-list{
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .list-item{
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .bottom{
+    padding: 15px 0;
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .headline{
+    padding-bottom: 15px;
+  }
+  .top{
+    color: rgba(19, 19, 24, 0.70);
+  }
+  .maldives{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+border-radius: 10px;
+font-family: Mulish;
+font-size: 28px;
+
+font-weight: 800;
+
+  }
+  .indonesia{
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: indonesia;
+  }
+  .srilanka{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png') ;
+    width: 374px;
+height: 286px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: srilanka;
+  }
+  .northamerica{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 7.png');
+    width: 474px;
+height: 286px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: northamerica;
+  }
+  .kashmir{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 9.png');
+    width: 274px;
+height: 286px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: kashmir;
+  }
+  .bangladesh{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 11.png');
+    width: 473px;
+height: 300px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: bangladesh;
+  }
+  .bandarban{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),url('Images/Rectangle\ 10.png');
+    width: 673px;
+height: 300px;
+text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+grid-area: bandarban;
+  }
+  .destination{
+    width: 100%;
+  }
+  /* .malnesia, .sec-row, .third-row{
+    display: flex;
+    /* gap: 1px; 
+    border-radius: 10px;
+    width: 100%;
+    margin-right: -100px;
+    margin-left: -100px;
+  } */
+  
+  .maldives{
+grid-area: maldives;
+  }
+  .country{
+display: grid;
+/* grid-template-areas: 
+"maldives maldives indonesia indonesia"
+"srilanka northamerica northamerica kashmir"
+"bangladesh bandarban bandarban bandarban"; */
+  }
+  .malnesia, .sec-row, .third-row{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+  }
+.sec-row{
+    gap: 17px;
+}
+.choose{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 50px;
+padding-bottom: 25px;
+}
+.choose-desc{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 25px;                    
+}
+.row1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-content: space-evenly; */
+}
+.hotel{
+    width: 510px;
+height: 184px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+margin-bottom: 15px;
+margin-left: 180px;
+}
+.service{
+    width: 510px;
+height: 184px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 30px;
+/* margin-right: 10px; */
+margin-left: 10px;
+margin-bottom: 15px;
+}
+.price{
+    width: 573px;
+height: 184px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 30px;
+}
+.us{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 30px;
+padding-bottom: 10px;
+}
+.us-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 20px;
+}
+.service > img{
+    height: 30%;
+    width: 12%;
+}
+.hotel > img {
+    height: 30%;
+    width: 12%;
+}
+.price > img{
+    height: 30%;
+    width: 12%;
+}
+.card{
+    display: block;
+}
+.container{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 5px;
+padding-bottom: 10px;
+}
+.newletter{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.newsletter-column > .newsletter{
+    /* display: flex; */
+}
+.newsletter-column{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-evenly; */
+    gap: 10px;
+    border-radius: 8px;
+/* background: rgba(19, 19, 24, 0.05); */
+background: #FFF;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 60px;
+margin-left: 180px;
+padding-left: 8px;
+}
+.second-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    width: 393px;
+height: 152px;
+flex-shrink: 0;
+}
+.second-form > input{
+    background: rgba(19, 19, 24, 0.05);
+    width: 430px;
+    /* padding-left: -1000px; */
+
+}
+.orange3{
+    width: 435px;
+/* height: 52px; */
+/* flex-shrink: 0; */
+ border-radius: 8px ;
+ color: #FFF;
+background: #FF5400;
+}
+.newsletter{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* padding-left: -1000px; */
+text-align: left;
+/* display: flex;
+flex-direction: row; */
+padding-left: 20px;
+padding-bottom: 10px;
+}
+.news-desc{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-left: 20px;
+padding-bottom: 55px;
+}
+.save{
+    background-image: url('Images/Rectangle\ 8\ \(1\).png');
+    width: 672px;
+height: 400px;
+width: 673px;
+/* margin-right: 2000px; */
+margin-left: -40px;
+margin-top: -1px;
+
+}
+.child{
+    width: 224px;
+    height: 50px;
+    transform: rotate(-29.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+    margin-top: 210px;
+    margin-right: 75px;
+    /* margin-bottom: 150px; */
+    
+}
+.com{
+    font-size: 1rem;
+    font-family: Mulish;
+}
+.savings{
+    font-size: 1.8rem;
+    font-family: Mulish;
+}
+
+.save > .child{
+    /* padding: 25px; */
+}
+.leg{
+    width: 1440px;
+height: 502px;
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+margin-top: 60px;
+}
+.logo{
+    display: flex;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+.social{
+    display: grid;
+    grid-template-columns: 105px 105px 105px 105px;
+    /* gap: 10px; */
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.social > img{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+.footer-desc{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-top: 20px;
+}
+
+.footer{
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-top: 50px;
+text-align: center;
+}
+
+
+
+
+  /* smaller device */
+   @media screen and (max-width: 600px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .explore{
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        background-position: center;
+    }
+    h1{
+        color: #FFF;
+padding-top: 0;
+font-family: Mulish;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .description{
+        color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+    }
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo > img{
+        padding-left: 0%;
+        margin-top: 30px;
+    }
+    .malnesia, .sec-row, .third-row{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+        /* width: 335px;
+        height: 376px; */
+        margin-left:  35px;
+        /* border-radius: 8px; */
+      }
+      .bandarban, .bangladesh, .maldives, .srilanka, .northamerica, .kashmir, .indonesia{
+        width: 335px;
+height: 176px;
+margin: 10px;
+border-radius: 12px;
+      }
+      .choose{
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 75px;
+        /* margin-bottom: 0px; */
+      }
+      .choose-desc{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        width: 309px;
+        margin-left: 75px;
+      }
+      .us{
+        color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-left: 35px;
+      }
+      .us-description{
+        color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+padding-left: 35px;
+      }
+      .all-services, .row1, .row2{
+        display: flex;
+        flex-direction: column;
+      }
+      .hotel, .service, .price{
+        margin-left: 30px;
+        width: 335px;
+height: 189px;
+/* flex-shrink: 0; */
+      }
+      /* .price{
+        width: 142%;
+      } */
+      .photo > .video{
+        padding-left: 0%;
+        margin-top: 30px;
+        width: 100px;
+      }
+      .newletter{
+        display: flex;
+        flex-direction: column;
+      }
+      .save{
+        width: 355px;
+        padding-left: 15px;
+        margin-left: 35px;
+      }
+      .newsletter-column{
+        margin-left: 10px;
+        width: 385px;
+        margin-bottom: 10px;
+      }
+      .leg{
+        width: 375px;
+height: 409px;
+
+      }
+      .logo{
+    padding-top: 5px;
+      }
+
+   }
